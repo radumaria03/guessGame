@@ -1,0 +1,145 @@
+@import url('https://fonts.cdnfonts.com/css/arcade-classic');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'ArcadeClassic', sans-serif;
+}
+
+.game-content {
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+}
+
+.normal-bg {
+  background-color: #1f185a;
+}
+
+.win-bg {
+  background-color: #16bb00;
+}
+
+/* HEADER CONTENT STYLING CODE */
+
+.game-top-content {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.game-header {
+  padding-top: 10px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.header-text {
+  padding-right: 50px;
+  font-size: 20px;
+}
+
+.again-button {
+  margin-left: 10px;
+  width: 120px;
+  height: 100px;
+  font-size: 26px;
+}
+
+.again-button:hover {
+  background-color: #ff0000;
+  color: #fff;
+  font-size: 28px;
+}
+
+.game-context {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.game-title {
+  padding-bottom: 20px;
+  font-size: 50px;
+}
+
+.game-question-num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  width: 200px;
+  height: 100px;
+  border: solid 3px #fff;
+}
+
+.num-bg {
+  background-color: #ff0000;
+}
+
+.secret-num-bg {
+  background-color: #0400ff;
+}
+
+/* BOTTOM GAME FEATURES CONTENT CODE */
+
+.game-features {
+  padding-top: 50px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.game-guess-input {
+  height: 200px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+
+.the-guess {
+  text-align: center;
+  font-size: 36px;
+  height: 100px;
+  width: 100px;
+  border: solid 3px #000;
+}
+
+.check-the-guess {
+  height: 40px;
+  font-size: 24px;
+}
+
+.check-the-guess:hover {
+  background-color: #ff0000;
+  color: #fff;
+  font-size: 26px;
+}
+
+.game-score {
+  height: 200px;
+  justify-content: space-around;
+  display: flex;
+  flex-flow: column;
+}
+
+.game-score-text {
+  font-size: 32px;
+}
+
+.game-score .score-box,
+.game-score .highscore-box {
+  display: flex;
+  flex-flow: row;
+  font-size: 20px;
+}
+
+.won-txt {
+  font-size: 76px;
+  letter-spacing: 3px;
+}
